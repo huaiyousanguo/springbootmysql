@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @EnableAutoConfiguration
-@RequestMapping("/")
+// @RequestMapping("/")
 public class Springboot3Application {
 
 	public static void main(String[] args) {

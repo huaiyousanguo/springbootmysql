@@ -20,6 +20,11 @@ public class BookController {
 	@Autowired
 	private BookDao bookDao;
 
+	@RequestMapping("/")
+	public String index() {
+		return "redirect:searchbook";
+	}
+
 	@RequestMapping(value = "/findbook")
 	@ResponseBody
 	public String get(long id) {
